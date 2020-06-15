@@ -1,0 +1,28 @@
+.nav {
+  padding: 15px;
+  /* background-color: rgb(184, 184, 184); */
+}
+
+.nav-list-item {
+  margin-right: 20px;
+  font-size: 0.7em;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list-item a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 2px transparent;
+  transition: border 0.1s linear;
+}
+
+.nav-list-item a:hover,
+.nav-list-item a:focus {
+  border-bottom: 2px solid rgb(190, 190, 190);
+}
+.faviconfont {
+  font-family: 'Montserrat', sans-serif;
+}
