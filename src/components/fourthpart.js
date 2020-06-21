@@ -1,5 +1,5 @@
 import React from "react"
-import "../App.css"
+import "../App.scss";
 import "../bootstrap.min.css"
 import WEPicOne from "../Images/ipmc-ghana.jpg"
 import WEPicTwo from "../Images/no-image-available.webp"
@@ -8,7 +8,7 @@ import { MdDone } from "react-icons/md"
 
 const FourthPart = () => (
   <div id="workexperience" className="rowgrey">
-    <div className="floatcontainer">
+    <div>
       <div className="row">
         <div className="col-lg-12 thirdpartheader">
           <h3> WORK EXPERIENCE </h3>
@@ -25,7 +25,7 @@ const FourthPart = () => (
                   <a href="https://www.ipmcghana.com">
                     <img
                       src={WEPicOne}
-                      alt="IPMC picture"
+                      alt="IPMC"
                       className="forimages rounded-circle float-lg-right"
                     />
                   </a>
@@ -70,14 +70,14 @@ const FourthPart = () => (
         <br />
         <div className="col-sm-6 card-body">
           <div className="card">
-            <div className="textcolorchange card-body">
+            <div className="textcolorchange card-body p-2">
               <br />
               <div className="row">
                 <div className="col-lg-3 text-center text-lg-left">
                   <a href="http://www.templedataghana.com">
                     <img
                       src={WEPicTwo}
-                      alt="Temple Data Ghana Image"
+                      alt="Temple Data Ghana"
                       className="forimages rounded-circle float-lg-right"
                     />
                   </a>
@@ -128,7 +128,7 @@ const FourthPart = () => (
                 <a href="https://www.vodafone.com.gh">
                   <img
                     src={WEPicThree}
-                    alt="Vodafone Ghana Image"
+                    alt="Vodafone Ghana"
                     className="forimages rounded-circle float-lg-right"
                   />
                 </a>

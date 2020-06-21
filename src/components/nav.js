@@ -5,10 +5,9 @@ import "../components/thirdpart";
 import "../components/fourthpart";
 import "../components/fifthpart";
 import "../components/sixthpart";
-//import "./nav.scss";
-import "./trial.css";
+import "./nav.scss";
 import "../bootstrap.min.css";
-import "../App.css";
+import "../App.scss";
 import { BsInfo } from "react-icons/bs";
 import { AiOutlineProfile } from "react-icons/ai";
 import { DiCode } from "react-icons/di";
@@ -16,7 +15,7 @@ import { MdWork } from "react-icons/md";
 import { GoProject, GoTools } from "react-icons/go";
 
 const Nav = () => (
-  <div className="floatcontainer">
+  <div>
       <div className="nav row">
         <div className="col-sm-5"></div>
         <div className="col-sm-1">

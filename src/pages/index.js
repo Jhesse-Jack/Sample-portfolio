@@ -7,7 +7,7 @@ import FourthPart from "../components/fourthpart"
 import FifthPart from "../components/fifthpart"
 import SixthPart from "../components/sixthpart"
 import SeventhPart from "../components/seventhpart"
-import "../App.css"
+import "../App.scss"
 import SEO from "../components/seo"
 import Nav from "../components/nav"
 

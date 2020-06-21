@@ -1,5 +1,5 @@
 import React from "react"
-import "../App.css"
+import "../App.scss"
 import "../bootstrap.min.css"
 // import { FaRegCopyright } from "react-icons/fa";
 

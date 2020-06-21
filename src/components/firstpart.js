@@ -1,7 +1,7 @@
 import React from "react";
 import "../bootstrap.min.css";
-import "../App.css";
-import "./trial.css";
+import "../App.scss";
+import "./nav.scss";
 
 const FirstPart = () => (
   <div id="introduction" className=" firsttest container">

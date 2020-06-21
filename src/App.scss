@@ -1,0 +1,92 @@
+$dummychar: 5px;
+$dummytwo: 40 * $dummychar;
+$dummyword: auto;
+$hrWidth: 10%;
+$paddingforCards: 50px 50px;
+* {
+    font-family: 'Merriweather', serif;
+}
+.firsttest {
+  margin: $dummyword;
+  text-align: center;
+  .test {
+    width: $dummytwo;
+    height: $dummytwo;
+    padding: 20 * $dummychar;
+    margin: $dummyword;
+    margin-top: 15 * $dummychar;
+    background-image: url("./Images/Avatar_resize.jpg");
+    background-repeat: no-repeat;
+    transform: rotate(0deg);
+  }
+  .nexttest {
+    margin: $dummyword;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(74, 78, 105);
+    .styledheaders {
+        text-align: center;
+        padding: 0.5rem;
+        .myfont {
+            font-family: 'Tangerine', cursive;
+        }
+    }
+  }  
+}
+.rowgrey {
+  background-color: rgb(211, 211, 211);
+  padding: $paddingforCards;
+  margin-right: 3*(-$dummychar);
+  margin-left: 3*(-$dummychar);
+}
+img {
+  vertical-align: middle;
+}
+.forimages {
+    width: 21 * $dummychar;
+    height: 20 * $dummychar;
+  }
+.reactico {
+  font-size: 2rem;
+}
+.rowwhite {
+  padding: $paddingforCards;
+  margin-right: 3*(-$dummychar);
+  margin-left: 3*(-$dummychar);
+}
+.cardalign {
+  text-align: center;
+  background-color: rgb(220, 220, 220);
+}
+.cardaligntwo {
+  background-color: rgb(232, 232, 232);
+}
+.textcolorchange {
+  background-color: rgb(245, 245, 245);
+}
+.thirdpartheader {
+  text-align: center;
+}
+.rowdeep {
+  background-color: rgb(200, 200, 200);
+  padding: 2*$dummychar 8*$dummychar;
+  margin-right: 3*(-$dummychar);
+  margin-left: 3*(-$dummychar);
+}
+.dottedrule, .dottedruletwo {
+    border:none;
+    color: #fff;
+    width: $hrWidth;
+}
+.dottedrule {
+  border-top:3px solid rgb(168, 168, 168);
+  background-color:#fff;
+  height:0.4px;
+  margin: 30px $dummyword;
+} 
+.dottedruletwo {
+  border-top:3px solid rgb(160, 160, 160);
+  background-color:rgb(211, 211, 211);
+  height:1px;
+  margin: -3*(-$dummychar) auto;
+}

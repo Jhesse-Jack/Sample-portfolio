@@ -1,5 +1,5 @@
 import React from "react"
-import "../App.css"
+import "../App.scss"
 import "../bootstrap.min.css"
 import TPic from "../Images/UGLogo.png"
 import SPic from "../Images/croppedprescrest.png"
@@ -8,7 +8,7 @@ import { MdDone } from "react-icons/md"
 
 const SecondPart = () => (
   <div id="profile" className="rowgrey">
-    <div className="floatcontainer">
+    <div>
       <div className="row">
         <div className="col-sm">
           <div className="card">

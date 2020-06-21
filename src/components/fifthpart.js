@@ -1,11 +1,11 @@
 import React from "react"
-import "../App.css"
+import "../App.scss"
 import "../bootstrap.min.css"
 import { MdDone } from "react-icons/md"
 
 const FifthPart = () => (
   <div id="projects" className="rowwhite">
-    <div className="floatcontainer">
+    <div>
       <div className="row">
         <div className="col-lg-12 thirdpartheader">
           <h3> PROJECTS </h3>

@@ -8,14 +8,14 @@ import {
   FaTwitter,
 } from "react-icons/fa"
 import { DiSublime } from "react-icons/di"
-import "../App.css"
+import "../App.scss"
 import { MdCall } from "react-icons/md"
 import Mailto from "react-protected-mailto"
 import { GoMail } from "react-icons/go"
 
 const SixthPart = () => (
   <div id="tools" className="rowgrey">
-    <div className="floatcontainer">
+    <div>
       <div className="col-lg-12 thirdpartheader">
         <h3> TOOLS I USE </h3>
         <br />
