@@ -2,6 +2,8 @@ import React from "react";
 import "../bootstrap.min.css";
 import "../App.scss";
 import "./nav.scss";
+import { GoMarkGithub } from "react-icons/go";
+import { FaLinkedin, FaFacebookSquare, FaTwitter } from "react-icons/fa";
 
 const FirstPart = () => (
   <div id="introduction" className=" firsttest container">
@@ -12,8 +14,11 @@ const FirstPart = () => (
       <h5 className="styledheaders"> A <span className="faviconfont"> Front End Developer </span></h5>
     </div>
     <br />
-    <div>
-      <a href="https://github.com/Jhesse-Jack" style={{color:"rgb(184,184,184)"}}> github.com </a>
+    <div className="socialmediaicos">
+      <a href="https://github.com/Jhesse-Jack"> <GoMarkGithub className="mediaicos"/> </a> &nbsp; &nbsp; &nbsp;
+      <a href="https://www.linkedin.com/in/james-armah-46309a162"><FaLinkedin /></a> &nbsp; &nbsp; &nbsp;
+      <a href="https://web.facebook.com/jesse.jack.619/"><FaFacebookSquare /></a> &nbsp; &nbsp; &nbsp;
+      <a href="https://twitter.com/KC_Jesse_"><FaTwitter /></a> &nbsp; &nbsp; &nbsp;
     </div>
     <hr className="dottedrule" />
   </div>
