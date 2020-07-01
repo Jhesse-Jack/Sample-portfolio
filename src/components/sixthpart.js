@@ -3,9 +3,6 @@ import {
   FaJira,
   FaGitAlt,
   FaConfluence,
-  FaLinkedin,
-  FaFacebookSquare,
-  FaTwitter,
 } from "react-icons/fa"
 import { DiSublime } from "react-icons/di"
 import "../App.scss"
@@ -107,37 +104,6 @@ const SixthPart = () => (
             }
           />
         </p>
-      </div>
-      <div className="col-sm-3 text-center p-0">
-        <h4> Let's Get Social </h4>
-        &nbsp;
-        <a
-          href="https://www.linkedin.com/in/james-armah-46309a162/"
-          style={{ textDecoration: "none", color: "#0c65e9" }}
-        >
-          <p>
-            {" "}
-            <FaLinkedin /> &nbsp; LinkedIn
-          </p>
-        </a>
-        <a
-          href="https://web.facebook.com/jesse.jack.619/"
-          style={{ textDecoration: "none", color: "#0c65e9"  }}
-        >
-          <p>
-            {" "}
-            <FaFacebookSquare /> &nbsp; Facebook{" "}
-          </p>
-        </a>
-        <a
-          href="https://twitter.com/KC_Jesse_"
-          style={{ textDecoration: "none", color: "#0c65e9"  }}
-        >
-          <p>
-            {" "}
-            <FaTwitter /> &nbsp; Twitter{" "}
-          </p>
-        </a>
       </div>
     </div>
     <hr className="dottedruletwo"/>
