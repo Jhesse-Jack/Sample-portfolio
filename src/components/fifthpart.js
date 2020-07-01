@@ -37,17 +37,17 @@ const FifthPart = () => (
                     </span>
                     <span className="small">
                       <br />
-                      <p>
+                      <p className="p-1">
                         {" "}
                         <MdDone /> &nbsp; Built a quiz application that helps
                         students with their studies.
                       </p>
-                      <p>
+                      <p className="p-1">
                         {" "}
                         <MdDone /> &nbsp; The application was categorised into
                         the subjects you take.
                       </p>
-                      <p>
+                      <p className="p-1">
                         <MdDone /> &nbsp; The application also had tutorials
                         embedded in them on the various subjects.
                       </p>
@@ -78,13 +78,13 @@ const FifthPart = () => (
                     </span>
                     <span className="small">
                       <br />
-                      <p>
+                      <p className="p-1">
                         {" "}
                         <MdDone /> &nbsp; Built a system that is able to predict
                         a football player's playing position using player
                         attributes / qualities.{" "}
                       </p>
-                      <p>
+                      <p className="p-1">
                         {" "}
                         <MdDone /> &nbsp; Both supervised and unsupervised
                         learning methods were used to train the data model and

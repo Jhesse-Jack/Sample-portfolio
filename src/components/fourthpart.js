@@ -44,18 +44,18 @@ const FourthPart = () => (
                     </span>
                     <span className="small">
                       <br />
-                      <p>
+                      <p className="p-2">
                         {" "}
                         <MdDone /> &nbsp; Responsible for troubleshooting sales’
                         department workers machines for networking problems{" "}
                       </p>
-                      <p>
+                      <p className="p-2">
                         {" "}
                         <MdDone /> &nbsp; Networking tours to troubleshoot areas
                         where IPMC fixed networks are down with the Enterprise
                         Department
                       </p>
-                      <p>
+                      <p className="p-2">
                         {" "}
                         <MdDone /> &nbsp; Learnt how ERP works
                       </p>
@@ -96,14 +96,14 @@ const FourthPart = () => (
                     </span>
                     <span className="small">
                       <br />
-                      <p>
+                      <p className="p-2">
                         {" "}
                         <MdDone /> &nbsp; Responsible for understudying ethernet
                         cables and their termination techniques according to
                         industry standards and for research on networking
                         devices
                       </p>
-                      <p>
+                      <p className="p-2">
                         {" "}
                         <MdDone /> &nbsp; Learnt network topology design, server
                         setup and cable types and their setup
@@ -144,12 +144,12 @@ const FourthPart = () => (
                   </span>
                   <span className="small">
                     <br />
-                    <p>
+                    <p className="p-2">
                       {" "}
                       <MdDone /> &nbsp; Researching on new scrum techniques in
                       the sofware agile methodology.{" "}
                     </p>
-                    <p>
+                    <p className="p-2">
                       {" "}
                       <MdDone /> &nbsp; Acting as interim scrum master and
                       experiencing the feel of project management.{" "}

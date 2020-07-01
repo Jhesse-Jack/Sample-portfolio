@@ -89,7 +89,7 @@ const ThirdPart = () => (
                   <div className="col-sm">
                     <br />
                     <div>
-                      <p>
+                      <p className="p-3">
                         {" "}
                         I have some minimal amount of exposure and experience
                         with the following tools and methods in the world of
@@ -97,7 +97,7 @@ const ThirdPart = () => (
                       </p>
                       <br />
                     </div>
-                    <div className="textcolorchange card-text">
+                    <div className="textcolorchange card-text p-2">
                       <p>
                         {" "}
                         <MdDone /> &nbsp; MySQL{" "}
@@ -130,7 +130,7 @@ const ThirdPart = () => (
                   <div className="col-sm">
                     <br />
                     <div>
-                      <p>
+                      <p className="p-3">
                         {" "}
                         I have had a sufficient amount of exposure and training
                         in the scrum methodology and can maximize the use of

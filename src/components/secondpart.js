@@ -23,7 +23,7 @@ const SecondPart = () => (
                     {" "}
                     OBJECTIVES <br />
                   </h4>
-                  <p className="textcolorchange card-text">
+                  <p className="textcolorchange card-text p-3">
                     I am a front-end developer with core principles in agile
                     software development and teamwork seeking to make a
                     difference in modern-day technology industry.

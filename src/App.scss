@@ -9,12 +9,13 @@ $paddingforCards: 50px 50px;
 .firsttest {
   margin: $dummyword;
   text-align: center;
+  //background-image: url("./images/Website-Design-Background.png");
   .test {
     width: $dummytwo;
     height: $dummytwo;
     padding: 20 * $dummychar;
     margin: $dummyword;
-    margin-top: 15 * $dummychar;
+    margin-top: 10 * $dummychar;
     background-image: url("./Images/Avatar_resize.jpg");
     background-repeat: no-repeat;
     transform: rotate(0deg);
@@ -34,7 +35,7 @@ $paddingforCards: 50px 50px;
   }  
 }
 .rowgrey {
-  background-color: rgb(211, 211, 211);
+  background-color: #f1f1f1;
   padding: $paddingforCards;
   margin-right: 3*(-$dummychar);
   margin-left: 3*(-$dummychar);
@@ -56,13 +57,13 @@ img {
 }
 .cardalign {
   text-align: center;
-  background-color: rgb(220, 220, 220);
+  background-color: #f9f9f9;
 }
 .cardaligntwo {
-  background-color: rgb(232, 232, 232);
+  background-color: #fcfcfc;
 }
 .textcolorchange {
-  background-color: rgb(245, 245, 245);
+  background-color: #f9f9f9;
 }
 .thirdpartheader {
   text-align: center;
