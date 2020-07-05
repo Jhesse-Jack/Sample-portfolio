@@ -14,7 +14,7 @@ import Nav from "../components/nav"
 const IndexPage = () => (
   <div>
     <SEO title="James" />
-    <Nav />
+    {/* <Nav /> */}
     <FirstPart />
     <SecondPart />
     <ThirdPart />

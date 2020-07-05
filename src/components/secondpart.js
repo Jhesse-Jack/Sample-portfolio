@@ -1,10 +1,9 @@
-import React from "react"
-import "../App.scss"
-import "../bootstrap.min.css"
-import TPic from "../Images/UGLogo.png"
-import SPic from "../Images/croppedprescrest.png"
-import BPic from "../Images/Additrom.png"
-import { MdDone } from "react-icons/md"
+import React from "react";
+import "../App.scss";
+import "../bootstrap.min.css";
+import TPic from "../Images/UGLogo.png";
+import SPic from "../Images/croppedprescrest.png";
+import { MdDone } from "react-icons/md";
 
 const SecondPart = () => (
   <div id="profile" className="rowgrey">
@@ -129,31 +128,6 @@ const SecondPart = () => (
                         </span>
                         <span className="small">
                           October 2012 - May, 2015
-                          <br />
-                        </span>
-                      </span>
-                    </div>
-                  </div>
-                  <br />
-                  <div className="row">
-                    <div className="col-lg-3 text-center text-lg-left">
-                      <a href="https://www.additromschool.com">
-                        <img
-                          src={BPic}
-                          alt="Basic school"
-                          className="rounded-circle float-lg-right"
-                          style={{ width: "85px", height: "87.5px;" }}
-                        />
-                      </a>
-                    </div>
-                    <div className="col-lg-9 text-center text-lg-left">
-                      <h5 className="font-weight-bold">
-                        {" "}
-                        Additrom Preparatory School{" "}
-                      </h5>
-                      <span>
-                        <span className="small">
-                          September, 2003 - April, 2012
                           <br />
                         </span>
                       </span>
