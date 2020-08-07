@@ -8,6 +8,9 @@ import Nav from "./nav";
 const FirstPart = () => (
   <div className="trial">
     <Nav />
+    <div className="fixed-bottom">
+      &nbsp;
+    </div>
     <div className="container">
       <div id="introduction" className=" firsttest">
         <div className="test rounded-circle"></div>

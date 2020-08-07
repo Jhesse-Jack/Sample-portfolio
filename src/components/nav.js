@@ -5,6 +5,7 @@ import "../components/thirdpart";
 import "../components/fourthpart";
 import "../components/fifthpart";
 import "../components/sixthpart";
+import "../App.scss";
 
 export default class Nav extends Component {
 
@@ -26,7 +27,7 @@ export default class Nav extends Component {
 
   return (
 
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="d-flex justify-content-end">
         <button className="navbar-toggler" type="button" onClick={ this.toggleMenu } style={{color: "#fff"}}>
           <span className="navbar-toggler-icon" style={{color: "#fff"}}></span>
