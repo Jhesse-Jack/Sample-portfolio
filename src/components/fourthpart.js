@@ -1,9 +1,9 @@
 import React from "react"
 import "../App.scss";
 import "../bootstrap.min.css"
-import WEPicOne from "../Images/ipmc-ghana.jpg"
-import WEPicTwo from "../Images/no-image-available.webp"
-import WEPicThree from "../Images/vodafone.jpg"
+import WEPicOne from "../images/ipmc-ghana.jpg"
+import WEPicTwo from "../images/no-image-available.webp"
+import WEPicThree from "../images/vodafone.jpg"
 import { MdDone } from "react-icons/md"
 
 const FourthPart = () => (

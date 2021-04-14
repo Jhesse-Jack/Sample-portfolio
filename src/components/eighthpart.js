@@ -5,10 +5,10 @@ import Carousel1 from "../images/gatsby-astronaut.png"
 import Carousel2 from "../images/gatsby-icon.png"
 import Carousel3 from "../images/no-image-available.webp"
 //import "../../node_modules/bootstrap/dist/css/bootstrap.css"
-import WEPicOne from "../Images/ipmc-ghana.jpg"
+import WEPicOne from "../images/ipmc-ghana.jpg"
 import Carousel from "react-bootstrap/Carousel"
 import { MdDone } from "react-icons/md"
-import WEPicTwo from "../Images/no-image-available.webp"
+import WEPicTwo from "../images/no-image-available.webp"
 
 const EighthPart = () => (
   <div className="rowgrey">

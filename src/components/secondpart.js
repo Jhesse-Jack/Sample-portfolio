@@ -1,8 +1,8 @@
 import React from "react";
 import "../App.scss";
 import "../bootstrap.min.css";
-import TPic from "../Images/UGLogo.png";
-import SPic from "../Images/croppedprescrest.png";
+import TPic from "../images/UGLogo.png";
+import SPic from "../images/croppedprescrest.png";
 import { MdDone } from "react-icons/md";
 
 const SecondPart = () => (
