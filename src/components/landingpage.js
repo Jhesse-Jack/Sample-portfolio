@@ -3,24 +3,29 @@ import { Link } from 'gatsby';
 import "../App.scss";
 import "../bootstrap.min.css";
 import Wavy from "../images/bye.svg"
+import Content from './landingpagecontent';
 
 const StartPage = () => {
     return (
         <div className="container-fluid">
             <header id="header" style={styles.header}>
                 <nav className="right">
-                    <Link to="" className="button alt">
+                    <Link to="/aboutme" className="button alt">
                         About Me
                     </Link>
-                    <Link to=""className="button alt">
+                    {/* <Link to="lets-talk-reactjs"className="button alt">
                         Blog
-                    </Link>
-                    <Link to="" className="button alt">
+                    </Link> */}
+                    <a href="https://lets-talk-reactjs.netlify.app" className="button alt">
+                        Blog
+                    </a>
+                    <Link to="/projects" className="button alt">
                         Projects
                     </Link>
                 </nav>
             </header>
-            <section>
+            <Content />
+            {/* <section>
                 <h2> 
                     Hello there, 
                     <img src={Wavy} alt="wavy-hand" />
@@ -34,7 +39,7 @@ const StartPage = () => {
                     <br />
                     A front-end developer
                 </h2>
-            </section>
+            </section> */}
         </div>
     )
 }
