@@ -1,12 +1,12 @@
 import React from 'react';
 import '../bootstrap.min.css';
-import './style.css';
+import './style.scss';
 import Wavy from '../images/bye.svg';
 import HeroImage from '../images/undraw_coding_6mjf.svg';
 
 const Hero = () => {
 	return (
-		<div className="jumbotron jumbotron-fluid bg-transparent hero section m-0">
+		<div className="jumbotron jumbotron-fluid bg-transparent hero section m-0 landingpage">
 			<div className="container">
 				<div className="row align-items-end align-items-xl-center">
 					<div className="col-12 col-lg-5">
@@ -20,11 +20,15 @@ const Hero = () => {
 								<span>
 									<b>
 									I'm
-									<span> James</span> </b>
+									<span className="name"> James</span> </b>
 								&nbsp;
 								</span>
 								<br />
-								<b> A &lt; front-end developer /&gt; </b>
+								<b> A 
+									<span>
+										&lt; front-end developer /&gt; 
+									</span>
+								</b>
 							</p>
 							&nbsp;
 							<div className="space-md" />
