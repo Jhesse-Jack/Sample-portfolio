@@ -31,9 +31,11 @@
 
 import React from 'react';
 import StartPage from '../components/landingpage.js';
+import SEO from '../components/seo';
 
 const IndexPage = () => (
   <div>
+    <SEO title="Home "/>
     <StartPage />
   </div>
 )
