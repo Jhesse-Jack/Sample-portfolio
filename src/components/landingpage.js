@@ -46,7 +46,6 @@
 
 import React from 'react';
 import '../bootstrap.min.css';
-import Content from './landingpagecontent';
 import { Link } from 'gatsby';
 //import '../App.scss';
 import './style.scss';
@@ -97,7 +96,6 @@ const startPage = () => {
                     </nav>
                 </div>
             </header>
-            <Content />
         </div>
     )
 }

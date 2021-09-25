@@ -16,19 +16,19 @@ const Hero = () => {
 							<div className="space-md" />
 							&nbsp;
 							<p className="lead">
-								<b> Hello there, </b>
+								<b> Hi there, </b>
 								<img src={Wavy} className="imgreduce img-fluid wave" />
 								<br />
 								<span>
 									<b>
 									I'm
-									<span className="name"> James</span> </b>
+									<span className="name"> JAMES</span> </b>
 								&nbsp;
 								</span>
 								<br />
 								<b> A 
 									<span>
-										&nbsp; &lt; front-end developer /&gt; 
+										&nbsp; &lt;FRONT-END DEVELOPER/&gt; 
 									</span>
 								</b>
 								<hr />
@@ -37,8 +37,8 @@ const Hero = () => {
 									<div className="col-2 d-flex justify-content-center">
 										<a href="https://github.com/Jhesse-Jack">
 											<button 
-												type="button" 
-												className="btn btn-outline-primary"
+												role="button" 
+												className="btn btn-outline btn-dark"
 												value="Visit James' GitHub profile">
 												<GoMarkGithub />
 											</button>

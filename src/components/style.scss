@@ -63,7 +63,10 @@ body {
 }
 
 .lead {
-  font-size: 30px;
+  font-size: 20px;
+  background: -webkit-linear-gradient(#eee, rgb(17, 17, 17));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
@@ -76,6 +79,9 @@ body {
   }
   .lead {
     font-size: 15px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .imgreduce {
     width: 10%;
