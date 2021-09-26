@@ -38,7 +38,7 @@ const Hero = () => {
 										<a href="https://github.com/Jhesse-Jack">
 											<button 
 												role="button" 
-												className="btn btn-outline btn-dark"
+												className="lead_gitdark"
 												value="Visit James' GitHub profile">
 												<GoMarkGithub />
 											</button>

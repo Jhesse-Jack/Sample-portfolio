@@ -6,7 +6,7 @@ import Content from '../components/landingpagecontent.js';
 const IndexPage = () => (
   <div>
     <SEO title="Home "/>
-    <StartPage />
+    <StartPage pageName="Home"/>
     <Content />
   </div>
 )

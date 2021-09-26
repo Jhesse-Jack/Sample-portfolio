@@ -67,6 +67,18 @@ body {
   background: -webkit-linear-gradient(#eee, rgb(17, 17, 17));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  &_gitdark {
+    border: 0.005px solid black;
+    border-radius: 5px;
+    background: transparent;
+    color: black;
+    width: 55px;
+    height: 40px;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
 }
 
 
@@ -82,6 +94,18 @@ body {
     background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    &_gitdark {
+      border: 0.005px solid black;
+      border-radius: 5px;
+      background: transparent;
+      color: black;
+      width: 49px;
+      height: 36.5px;
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+    }
   }
   .imgreduce {
     width: 10%;
