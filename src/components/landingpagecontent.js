@@ -8,7 +8,7 @@ import { FaLinkedin, FaFacebookSquare, FaTwitter } from "react-icons/fa";
 
 const Hero = () => {
 	return (
-		<div className="jumbotron jumbotron-fluid bg-transparent hero section m-0 landingpage">
+		<div className="jumbotron jumbotron-fluid bg-transparent hero section m-0 bodyContent">
 			<div className="container">
 				<div className="row align-items-end align-items-xl-center">
 					<div className="col-12 col-lg-5">
@@ -17,7 +17,7 @@ const Hero = () => {
 							&nbsp;
 							<p className="lead">
 								<b> Hi there, </b>
-								<img src={Wavy} className="imgreduce img-fluid wave" />
+								<img src={Wavy} className="imgreduce img-fluid lead_blob" />
 								<br />
 								<span>
 									<b>

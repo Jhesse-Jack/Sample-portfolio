@@ -7,7 +7,7 @@ import './style.scss';
 const startPage = ({pageName, ...props}) => {
     return (
         //Header
-        <div className="landingpage">
+        <div className="bodyContent">
             <header className="header">
                 <div className="container row">
                     <nav className="navbar navbar expand-lg align-content-center px-0">
