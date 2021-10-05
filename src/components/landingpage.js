@@ -1,8 +1,9 @@
 import React from 'react';
 import '../bootstrap.min.css';
 import { Link } from 'gatsby';
-//import '../App.scss';
 import './style.scss';
+import DownloadButton from '../images/iconmonstr-download-thin.svg';
+import MyCV from '../assets/James-CV.pdf';
 
 const startPage = ({pageName, ...props}) => {
     return (
@@ -24,26 +25,38 @@ const startPage = ({pageName, ...props}) => {
                         <div className="navbar-collapse" id="menu">
                             <ul className="navbar-nav ml-lg-auto row">
                                 <li className="nav-item">
-                                    <Link to="/" className={pageName=="Home" ? "nav-link active" : "nav-link ips"}>
+                                    <Link to="/" className={pageName==="Home" ? "nav-link active" : "nav-link ips"}>
                                         Home
                                         <span className="sr-only"> (current) </span>
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/aboutme" className={pageName=="AboutMe" ? "nav-link active" : "nav-link ips"}>
+                                    <Link to="/aboutme" className={pageName==="AboutMe" ? "nav-link active" : "nav-link ips"}>
                                         About Me
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className={pageName=="Blog" ? "nav-link active" : "nav-link ips"} href="https://lets-talk-reactjs.netlify.app">
+                                    <a className={pageName==="Blog" ? "nav-link active" : "nav-link ips"} href="https://lets-talk-reactjs.netlify.app">
                                         Blog
                                     </a>
                                 </li>
-                                <li className="nav-item nav-item-divider d-none d-lg-block"></li>
                                 <li className="nav-item">
-                                    <Link to="/features" className={pageName=="Projects" ? "nav-link active" : "nav-link ips"}>
+                                    <Link to="/features" className={pageName==="Projects" ? "nav-link active" : "nav-link ips"}>
                                         Projects
                                     </Link>
+                                </li>
+                                <li className="nav-item nav-item-divider d-none d-lg-block"></li>
+                                <li className="nav-item">
+                                    <a 
+                                        href={MyCV} 
+                                        className=""
+                                        target="_blank" 
+                                        download="James CV">
+                                        <img 
+                                            src={DownloadButton} 
+                                            alt="Download Button" 
+                                            title="Download My CV" />
+                                    </a>
                                 </li>
                             </ul>
                         </div>

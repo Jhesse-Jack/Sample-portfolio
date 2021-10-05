@@ -28,7 +28,7 @@ const Hero = () => {
 								<br />
 								<b> A 
 									<span>
-										&nbsp; &lt;FRONT-END DEVELOPER/&gt; 
+										&nbsp; &lt;FRONT-END DEVELOPER /&gt; 
 									</span>
 								</b>
 								<hr />
