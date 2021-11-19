@@ -1,155 +1,102 @@
 import React from 'react';
 import StartPage from '../components/landingpage.js';
 import SEO from '../components/seo';
-import { MdDone } from "react-icons/md";
 import '../bootstrap.min.css';
 import '../components/style.scss';
 
 const AboutMe = () => (
-  <div>
-    <div>
-        <SEO title="About Me" />
-        <StartPage pageName="AboutMe"/>
-        <div className="bodyContent">
-          <div>
-            <div className="row">
-              <div className="col-sm">
-                <div className="card">
-                  <div className="card-body">
-                    <h3 className="cardalign border-0 card-header">
+  <div className="bodyContent">
+      <SEO title="About Me" />
+      <StartPage pageName="AboutMe"/>
+      <br />
+        <div className="row">
+          <div className='col-sm-1' />
+          <div className="col-sm-5">
+            <div className="card">
+              <h2 className="border-0 card-header">
+                {" "}
+                SKILLS & TOOLSET <br />
+              </h2>
+            <div className="card-body">
+              <div className="card">
+                <h2 className="border-0 card-header">
+                  {" "}
+                  SKILLS <br />
+                </h2>
+                <div className="card-body">
+                  <div className="card-text p-2">
+                    &nbsp;{" "}
+                    <h5>
+                      &nbsp; Software Requirements Engineering {" "}
+                    </h5>
+                    <hr />
+                    <h5>
                       {" "}
-                      PROFESSIONAL PROFILE <br />
-                    </h3>
-                    <div className="card">
-                        <div className="card">
-                          <div className="card-body">
-                            <h4 className="cardaligntwo border-0 card-header">
-                              {" "}
-                              SKILLS <br />
-                            </h4>
-                            <div className="textcolorchange card-text p-2">
-                              &nbsp;{" "}
-                              <p>
-                                <MdDone /> &nbsp; Requirement Elicitation {" "}
-                              </p>
-                              <p>
-                                {" "}
-                                <MdDone /> &nbsp; Agile Scrum, Lean, Kanban {" "}
-                              </p>
-                              <p>
-                                {" "}
-                                <MdDone /> &nbsp;{" "}
-                              </p>
-                              <p>
-                                {" "}
-                                <MdDone /> &nbsp; {" "}
-                              </p>
-                              <p>
-                                {" "}
-                                <MdDone /> &nbsp; {" "}
-                              </p>
-                              <br />
-                            </div>
-                            <br />
-                          </div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm">
-                <div className="card">
-                  <div className="card-body">
-                    <h3 className="cardalign border-0 card-header">
+                      &nbsp; Agile Project Management {" "}
+                    </h5>
+                    <hr />
+                    <h5>
                       {" "}
-                      QUALIFICATIONS <br />{" "}
-                    </h3>
-                    <div className="card">
-                      <div className="textcolorchange card-body">
-                        <br />
-                        <div className="row">
-                          <div className="col-lg-9 text-center text-lg-left">
-                            <h5 className="font-weight-bold">
-                              {" "}
-                              University of Ghana{" "}
-                            </h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                      &nbsp; Front End Web Development {" "}
+                    </h5>
+                    <hr />
                   </div>
-                </div>
+                </div>  
+                <br /> 
+                <h2 className="border-0 card-header">
+                  {" "}
+                  TOOLSET <br />
+                </h2>
+                <div className="card-body">
+                  <div className="card-text p-2">
+                    &nbsp;{" "}
+                    <h5>
+                      &nbsp; HTML5, CSS3, ES6 {" "}
+                    </h5>
+                    <hr />
+                    <h5>
+                      {" "}
+                      &nbsp; Atlassian Jira, Confluence, Trello, Microsoft Azure {" "}
+                    </h5>
+                    <hr />
+                    <h5>
+                      {" "}
+                      &nbsp; Requirement Elicitation, SRS documentation {" "}
+                    </h5>
+                    <hr />
+                  </div>
+                </div>   
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div id="skills" className="rowwhite">
-    <div>
-      <div className="row">
-        <div className="col-lg-12 thirdpartheader">
-          <h3> IT / TECHNICAL SKILLS </h3>
-          <br />
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-sm">
+        <div className="col-sm-5">
           <div className="card">
             <div className="card-body">
-              <h4 className="cardalign border-0 card-header">
+              <h2 className="cardalign border-0 card-header">
                 {" "}
-                LANGUAGES & FRAMEWORKS <br />
-              </h4>
+                QUALIFICATIONS <br />{" "}
+              </h2>
               <div className="card">
                 <div className="card-body">
-                  <h5 className="cardaligntwo border-0 card-header">
-                    {" "}
-                    LANGUAGES <br />
-                  </h5>
-                  <div className="textcolorchange card-text p-2">
-                    &nbsp;{" "}
-                    <p>
-                      {" "}
-                      <MdDone /> &nbsp; HTML{" "}
-                    </p>
-                    <p>
-                      {" "}
-                      <MdDone /> &nbsp; CSS{" "}
-                    </p>
-                    <p>
-                      {" "}
-                      <MdDone /> &nbsp; JavaScript{" "}
-                    </p>
-                    <br />
-                  </div>
                   <br />
-                  <div className="card">
-                    <div className="card-body">
-                      <h4 className="cardaligntwo border-0 card-header">
+                  <div className="row">
+                    <div className="col-lg-9 text-lg-left">
+                      <h5 className="">
                         {" "}
-                        FRAMEWORKS <br />
-                      </h4>
-                      <div className="textcolorchange card-text p-2">
-                        &nbsp;{" "}
-                        <p>
-                          {" "}
-                          <MdDone /> &nbsp; React{" "}
-                        </p>
-                        <p>
-                          {" "}
-                          <MdDone /> &nbsp; Sass{" "}
-                        </p>
-                        <p>
-                          {" "}
-                          <MdDone /> &nbsp; Bootstrap{" "}
-                        </p>
-                        <p>
-                          {" "}
-                          <MdDone /> &nbsp; Gatsby{" "}
-                        </p>
-                        <br />
-                      </div>
-                      <br />
+                        BSc Computer Science Degree {" "}
+                      </h5>
+                      <hr />
+                      <h5 className="">
+                        {" "}
+                        Scrum Fundamentals Certified (SFC&trade; ) {" "}
+                      </h5>
+                      <hr />
+                      <h5 className="">
+                        {" "}
+                        ECBA&trade; certified {" "}
+                      </h5>
+                      <hr />
                     </div>
                   </div>
                 </div>
@@ -157,89 +104,9 @@ const AboutMe = () => (
             </div>
           </div>
         </div>
-        <div className="col-sm">
-          <div className="card">
-            <div className="card-body">
-              <h5 className="cardalign border-0 card-header">
-                {" "}
-                MINOR TECH. EXPERIENCE <br />
-              </h5>
-              <div className="card">
-                <div className="textcolorchange card-body">
-                  <div className="col-sm">
-                    <br />
-                    <div>
-                      <p className="p-3">
-                        {" "}
-                        I have some minimal amount of exposure and experience
-                        with the following tools and methods in the world of
-                        technology{" "}
-                      </p>
-                      <br />
-                    </div>
-                    <div className="textcolorchange card-text p-2">
-                      <p>
-                        {" "}
-                        <MdDone /> &nbsp; MySQL{" "}
-                      </p>
-                      <p>
-                        {" "}
-                        <MdDone /> &nbsp; Network Topology Design{" "}
-                      </p>
-                      <p>
-                        {" "}
-                        <MdDone /> &nbsp; RStudio{" "}
-                      </p>
-                      <br />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-sm">
-          <div className="card">
-            <div className="card-body">
-              <h5 className="cardalign border-0 card-header">
-                {" "}
-                DEV OPS TOOLS{" "}
-              </h5>
-              <div className="card">
-                <div className="textcolorchange card-body">
-                  <div className="col-sm">
-                    <br />
-                    <div>
-                      <p className="p-3">
-                        {" "}
-                        I have had a sufficient amount of exposure and training
-                        in the scrum methodology and can maximize the use of
-                        these tools extensively{" "}
-                      </p>
-                      <br />
-                    </div>
-                    <div className="textcolorchange card-text">
-                      <p>
-                        <MdDone /> &nbsp; JIRA{" "}
-                      </p>
-                      <p>
-                        <MdDone /> &nbsp; TRELLO{" "}
-                      </p>
-                      <p>
-                        <MdDone /> &nbsp; CONFLUENCE{" "}
-                      </p>
-                    </div>
-                    <br />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div className='col-sm-1' />
       </div>
     </div>
-  </div>
-  </div>
 )
 
 export default AboutMe;

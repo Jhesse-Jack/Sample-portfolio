@@ -1,13 +1,16 @@
-import React from "react"
-import "../App.scss"
-import "../bootstrap.min.css"
-import { MdDone } from "react-icons/md"
+import React from 'react';
+import '../components/style.scss';
+import SEO from '../components/seo';
+import StartPage from '../components/landingpage';
+import '../bootstrap.min.css';
 
-const FifthPart = () => (
-  <div id="projects" className="rowwhite">
-    <div>
-      <div className="row">
-        <div className="col-lg-12 thirdpartheader">
+const Features = () => (
+    <div className='bodyContent'>
+        <SEO title='Features' />
+        <StartPage pageName='Features'/>
+        <br />
+        <div className="row">
+        <div className="col-lg-12">
           <h3> PROJECTS </h3>
           <br />
           <p>
@@ -39,16 +42,16 @@ const FifthPart = () => (
                       <br />
                       <p className="p-1">
                         {" "}
-                        <MdDone /> &nbsp; Built a quiz application that helps
+                        &nbsp; Built a quiz application that helps
                         students with their studies.
                       </p>
                       <p className="p-1">
                         {" "}
-                        <MdDone /> &nbsp; The application was categorised into
+                        &nbsp; The application was categorised into
                         the subjects you take.
                       </p>
                       <p className="p-1">
-                        <MdDone /> &nbsp; The application also had tutorials
+                        &nbsp; The application also had tutorials
                         embedded in them on the various subjects.
                       </p>
                     </span>
@@ -80,13 +83,13 @@ const FifthPart = () => (
                       <br />
                       <p className="p-1">
                         {" "}
-                        <MdDone /> &nbsp; Built a system that is able to predict
+                        &nbsp; Built a system that is able to predict
                         a football player's playing position using player
                         attributes / qualities.{" "}
                       </p>
                       <p className="p-1">
                         {" "}
-                        <MdDone /> &nbsp; Both supervised and unsupervised
+                        &nbsp; Both supervised and unsupervised
                         learning methods were used to train the data model and
                         predict on future player positions based on current
                         ones.
@@ -103,7 +106,6 @@ const FifthPart = () => (
         <div className="col-sm-2 card-body"></div>
       </div>
     </div>
-  </div>
 )
 
-export default FifthPart
+export default Features
